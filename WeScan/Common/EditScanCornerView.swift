@@ -15,6 +15,7 @@ final class EditScanCornerView: UIView {
     
     /// The image to display when the corner view is highlighted.
     private var image: UIImage?
+    
     private(set) var isHighlighted = false
     
     lazy private var circleLayer: CAShapeLayer = {
